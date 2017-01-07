@@ -1,0 +1,6 @@
+framework module Pods_TomaTalkUITests {
+  umbrella header "Pods-TomaTalkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
