@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038F12B728F445828931BB72 /* Pods_TomaTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBC1BB841E97B89A0C66A69 /* Pods_TomaTalkUITests.framework */; };
+		4C0964701D325BBE00331854 /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C09646F1D325BBE00331854 /* RegisterUser.swift */; };
+		4C0ECC7B1D27FBA400EA4003 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0ECC7A1D27FBA400EA4003 /* RecentTableViewCell.swift */; };
+		4C0ECC7D1D28062200EA4003 /* IncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0ECC7C1D28062200EA4003 /* IncomingMessage.swift */; };
+		4C0ECC7F1D29105E00EA4003 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0ECC7E1D29105E00EA4003 /* Camera.swift */; };
+		4C0ECC811D293DE900EA4003 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0ECC801D293DE900EA4003 /* MapViewController.swift */; };
+		4C0ECC831D2E700700EA4003 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0ECC821D2E700700EA4003 /* SettingsTableViewController.swift */; };
+		4C0ECC851D306BCA00EA4003 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0ECC841D306BCA00EA4003 /* Avatar.swift */; };
+		4C1351B61D153ED600968AD0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1351B51D153ED600968AD0 /* WelcomeViewController.swift */; };
+		4C1351B81D153FEF00968AD0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1351B71D153FEF00968AD0 /* RegisterViewController.swift */; };
+		4C1351BA1D153FFC00968AD0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1351B91D153FFC00968AD0 /* LoginViewController.swift */; };
+		4C40C0F71D1FA5FB002F8AA4 /* ChooseUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40C0F61D1FA5FB002F8AA4 /* ChooseUserViewController.swift */; };
+		4C40C0F91D1FB2C1002F8AA4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40C0F81D1FB2C1002F8AA4 /* ChatViewController.swift */; };
+		4C40C0FB1D1FD341002F8AA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C40C0FA1D1FD341002F8AA4 /* GoogleService-Info.plist */; };
+		4C40C0FD1D1FF9C9002F8AA4 /* OutgoingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40C0FC1D1FF9C9002F8AA4 /* OutgoingMessage.swift */; };
+		4C8F2AA51D18069200B1A3A7 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F2AA21D18069200B1A3A7 /* ProgressHUD.bundle */; };
+		4C8F2AA61D18069200B1A3A7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F2AA41D18069200B1A3A7 /* ProgressHUD.m */; };
+		4C8F2AAA1D197FCA00B1A3A7 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F2AA91D197FCA00B1A3A7 /* RecentViewController.swift */; };
+		4C8F2AAF1D1D680500B1A3A7 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F2AAE1D1D680500B1A3A7 /* Recent.swift */; };
+		4CB6D0091D4C129D00E15E81 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6D0081D4C129D00E15E81 /* FriendsViewController.swift */; };
+		4CB6D00B1D4C1C3100E15E81 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6D00A1D4C1C3100E15E81 /* FriendsTableViewCell.swift */; };
 		4CF6D3481D14EF860048F0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6D3471D14EF860048F0FD /* AppDelegate.swift */; };
-		4CF6D34A1D14EF860048F0FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6D3491D14EF860048F0FD /* ViewController.swift */; };
 		4CF6D34D1D14EF860048F0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF6D34B1D14EF860048F0FD /* Main.storyboard */; };
 		4CF6D34F1D14EF860048F0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF6D34E1D14EF860048F0FD /* Assets.xcassets */; };
 		4CF6D3521D14EF860048F0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF6D3501D14EF860048F0FD /* LaunchScreen.storyboard */; };
 		4CF6D35D1D14EF860048F0FD /* TomaTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6D35C1D14EF860048F0FD /* TomaTalkTests.swift */; };
 		4CF6D3681D14EF860048F0FD /* TomaTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6D3671D14EF860048F0FD /* TomaTalkUITests.swift */; };
+		BA244F72E34C7E9763857837 /* Pods_TomaTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E04A4664C57CAD96ECC6F8 /* Pods_TomaTalkTests.framework */; };
+		F71BBFCDAA3B32B949DFABF0 /* Pods_TomaTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EB3B65776F2D8F03405FAA /* Pods_TomaTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +56,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FBC1BB841E97B89A0C66A69 /* Pods_TomaTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TomaTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F562573AD1A2CB231FB437 /* Pods-TomaTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomaTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TomaTalk/Pods-TomaTalk.release.xcconfig"; sourceTree = "<group>"; };
+		4C09646F1D325BBE00331854 /* RegisterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUser.swift; sourceTree = "<group>"; };
+		4C0ECC7A1D27FBA400EA4003 /* RecentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
+		4C0ECC7C1D28062200EA4003 /* IncomingMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomingMessage.swift; sourceTree = "<group>"; };
+		4C0ECC7E1D29105E00EA4003 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		4C0ECC801D293DE900EA4003 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4C0ECC821D2E700700EA4003 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		4C0ECC841D306BCA00EA4003 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		4C1351B51D153ED600968AD0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4C1351B71D153FEF00968AD0 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4C1351B91D153FFC00968AD0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4C40C0F61D1FA5FB002F8AA4 /* ChooseUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseUserViewController.swift; sourceTree = "<group>"; };
+		4C40C0F81D1FB2C1002F8AA4 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4C40C0FA1D1FD341002F8AA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C40C0FC1D1FF9C9002F8AA4 /* OutgoingMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutgoingMessage.swift; sourceTree = "<group>"; };
+		4C8F2AA21D18069200B1A3A7 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		4C8F2AA31D18069200B1A3A7 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		4C8F2AA41D18069200B1A3A7 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		4C8F2AA91D197FCA00B1A3A7 /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		4C8F2AAE1D1D680500B1A3A7 /* Recent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
+		4CB6D0081D4C129D00E15E81 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		4CB6D00A1D4C1C3100E15E81 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		4CF6D3441D14EF860048F0FD /* TomaTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomaTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF6D3471D14EF860048F0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CF6D3491D14EF860048F0FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CF6D34C1D14EF860048F0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CF6D34E1D14EF860048F0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CF6D3511D14EF860048F0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +91,13 @@
 		4CF6D3631D14EF860048F0FD /* TomaTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomaTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF6D3671D14EF860048F0FD /* TomaTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomaTalkUITests.swift; sourceTree = "<group>"; };
 		4CF6D3691D14EF860048F0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5308DFA9A9466B56FF4AE4DF /* Pods-TomaTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomaTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TomaTalkTests/Pods-TomaTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		9265F39EFEDEBDE938948A50 /* Pods-TomaTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomaTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TomaTalkUITests/Pods-TomaTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9422DEE3DA71FCE8FE28E8A8 /* Pods-TomaTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomaTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TomaTalkUITests/Pods-TomaTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3EB3B65776F2D8F03405FAA /* Pods_TomaTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TomaTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9632A8C591963CE5C91CC3 /* Pods-TomaTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomaTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TomaTalk/Pods-TomaTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		E3E04A4664C57CAD96ECC6F8 /* Pods_TomaTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TomaTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65E40CCD78286A81EE64D9A /* Pods-TomaTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomaTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TomaTalkTests/Pods-TomaTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71BBFCDAA3B32B949DFABF0 /* Pods_TomaTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA244F72E34C7E9763857837 /* Pods_TomaTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +121,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038F12B728F445828931BB72 /* Pods_TomaTalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C8F2AA11D18069200B1A3A7 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4C8F2AA21D18069200B1A3A7 /* ProgressHUD.bundle */,
+				4C8F2AA31D18069200B1A3A7 /* ProgressHUD.h */,
+				4C8F2AA41D18069200B1A3A7 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		4C8F2AAB1D197FE200B1A3A7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4C1351B51D153ED600968AD0 /* WelcomeViewController.swift */,
+				4C1351B71D153FEF00968AD0 /* RegisterViewController.swift */,
+				4C1351B91D153FFC00968AD0 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		4C8F2AAC1D19800A00B1A3A7 /* CustomTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4C0ECC7A1D27FBA400EA4003 /* RecentTableViewCell.swift */,
+				4CB6D00A1D4C1C3100E15E81 /* FriendsTableViewCell.swift */,
+			);
+			name = CustomTableViewCells;
+			sourceTree = "<group>";
+		};
+		4C8F2AAD1D19805700B1A3A7 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C8F2AA91D197FCA00B1A3A7 /* RecentViewController.swift */,
+				4CB6D0081D4C129D00E15E81 /* FriendsViewController.swift */,
+				4C40C0F61D1FA5FB002F8AA4 /* ChooseUserViewController.swift */,
+				4C40C0F81D1FB2C1002F8AA4 /* ChatViewController.swift */,
+				4C0ECC801D293DE900EA4003 /* MapViewController.swift */,
+				4C0ECC821D2E700700EA4003 /* SettingsTableViewController.swift */,
+			);
+			name = UIViewControllers;
+			sourceTree = "<group>";
+		};
 		4CF6D33B1D14EF860048F0FD = {
 			isa = PBXGroup;
 			children = (
+				4C8F2AA11D18069200B1A3A7 /* ProgressHUD */,
 				4CF6D3461D14EF860048F0FD /* TomaTalk */,
 				4CF6D35B1D14EF860048F0FD /* TomaTalkTests */,
 				4CF6D3661D14EF860048F0FD /* TomaTalkUITests */,
 				4CF6D3451D14EF860048F0FD /* Products */,
+				C23D1D1D4F96C5267A87E97A /* Pods */,
+				E3AEEFC04768D15D90ABC846 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +197,19 @@
 			isa = PBXGroup;
 			children = (
 				4CF6D3471D14EF860048F0FD /* AppDelegate.swift */,
-				4CF6D3491D14EF860048F0FD /* ViewController.swift */,
+				4C8F2AAE1D1D680500B1A3A7 /* Recent.swift */,
+				4C40C0FC1D1FF9C9002F8AA4 /* OutgoingMessage.swift */,
+				4C0ECC7C1D28062200EA4003 /* IncomingMessage.swift */,
+				4C0ECC7E1D29105E00EA4003 /* Camera.swift */,
+				4C0ECC841D306BCA00EA4003 /* Avatar.swift */,
+				4C09646F1D325BBE00331854 /* RegisterUser.swift */,
+				4C8F2AAD1D19805700B1A3A7 /* UIViewControllers */,
+				4C8F2AAB1D197FE200B1A3A7 /* Login */,
+				4C8F2AAC1D19800A00B1A3A7 /* CustomTableViewCells */,
 				4CF6D34B1D14EF860048F0FD /* Main.storyboard */,
 				4CF6D34E1D14EF860048F0FD /* Assets.xcassets */,
 				4CF6D3501D14EF860048F0FD /* LaunchScreen.storyboard */,
+				4C40C0FA1D1FD341002F8AA4 /* GoogleService-Info.plist */,
 				4CF6D3531D14EF860048F0FD /* Info.plist */,
 			);
 			path = TomaTalk;
@@ -125,6 +233,29 @@
 			path = TomaTalkUITests;
 			sourceTree = "<group>";
 		};
+		C23D1D1D4F96C5267A87E97A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB9632A8C591963CE5C91CC3 /* Pods-TomaTalk.debug.xcconfig */,
+				45F562573AD1A2CB231FB437 /* Pods-TomaTalk.release.xcconfig */,
+				E65E40CCD78286A81EE64D9A /* Pods-TomaTalkTests.debug.xcconfig */,
+				5308DFA9A9466B56FF4AE4DF /* Pods-TomaTalkTests.release.xcconfig */,
+				9265F39EFEDEBDE938948A50 /* Pods-TomaTalkUITests.debug.xcconfig */,
+				9422DEE3DA71FCE8FE28E8A8 /* Pods-TomaTalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3AEEFC04768D15D90ABC846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB3B65776F2D8F03405FAA /* Pods_TomaTalk.framework */,
+				E3E04A4664C57CAD96ECC6F8 /* Pods_TomaTalkTests.framework */,
+				1FBC1BB841E97B89A0C66A69 /* Pods_TomaTalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF6D36C1D14EF860048F0FD /* Build configuration list for PBXNativeTarget "TomaTalk" */;
 			buildPhases = (
+				EC4A30E252126CF8FBBA0EF8 /* [CP] Check Pods Manifest.lock */,
 				4CF6D3401D14EF860048F0FD /* Sources */,
 				4CF6D3411D14EF860048F0FD /* Frameworks */,
 				4CF6D3421D14EF860048F0FD /* Resources */,
+				463C3EE86964F7387A243D25 /* [CP] Embed Pods Frameworks */,
+				866C27326191B6BEB815EE06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF6D36F1D14EF860048F0FD /* Build configuration list for PBXNativeTarget "TomaTalkTests" */;
 			buildPhases = (
+				A2144A8FA2E756D071611886 /* [CP] Check Pods Manifest.lock */,
 				4CF6D3541D14EF860048F0FD /* Sources */,
 				4CF6D3551D14EF860048F0FD /* Frameworks */,
 				4CF6D3561D14EF860048F0FD /* Resources */,
+				45EE8F057E5317328AA16BC9 /* [CP] Embed Pods Frameworks */,
+				F10D58540DCD2AA33F8E25A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF6D3721D14EF860048F0FD /* Build configuration list for PBXNativeTarget "TomaTalkUITests" */;
 			buildPhases = (
+				A01E13A0B834FC02109416C2 /* [CP] Check Pods Manifest.lock */,
 				4CF6D35F1D14EF860048F0FD /* Sources */,
 				4CF6D3601D14EF860048F0FD /* Frameworks */,
 				4CF6D3611D14EF860048F0FD /* Resources */,
+				7817C83F1D048B6497FFEFB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,13 +332,16 @@
 				TargetAttributes = {
 					4CF6D3431D14EF860048F0FD = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					4CF6D3571D14EF860048F0FD = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4CF6D3431D14EF860048F0FD;
 					};
 					4CF6D3621D14EF860048F0FD = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4CF6D3431D14EF860048F0FD;
 					};
 				};
@@ -229,7 +371,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8F2AA51D18069200B1A3A7 /* ProgressHUD.bundle in Resources */,
 				4CF6D3521D14EF860048F0FD /* LaunchScreen.storyboard in Resources */,
+				4C40C0FB1D1FD341002F8AA4 /* GoogleService-Info.plist in Resources */,
 				4CF6D34F1D14EF860048F0FD /* Assets.xcassets in Resources */,
 				4CF6D34D1D14EF860048F0FD /* Main.storyboard in Resources */,
 			);
@@ -251,13 +395,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45EE8F057E5317328AA16BC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomaTalkTests/Pods-TomaTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		463C3EE86964F7387A243D25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomaTalk/Pods-TomaTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7817C83F1D048B6497FFEFB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomaTalkUITests/Pods-TomaTalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866C27326191B6BEB815EE06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomaTalk/Pods-TomaTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01E13A0B834FC02109416C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2144A8FA2E756D071611886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4A30E252126CF8FBBA0EF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F10D58540DCD2AA33F8E25A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomaTalkTests/Pods-TomaTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CF6D3401D14EF860048F0FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF6D34A1D14EF860048F0FD /* ViewController.swift in Sources */,
+				4C8F2AAF1D1D680500B1A3A7 /* Recent.swift in Sources */,
+				4C40C0F71D1FA5FB002F8AA4 /* ChooseUserViewController.swift in Sources */,
+				4C0964701D325BBE00331854 /* RegisterUser.swift in Sources */,
+				4C1351BA1D153FFC00968AD0 /* LoginViewController.swift in Sources */,
+				4C8F2AAA1D197FCA00B1A3A7 /* RecentViewController.swift in Sources */,
+				4C40C0FD1D1FF9C9002F8AA4 /* OutgoingMessage.swift in Sources */,
+				4C0ECC851D306BCA00EA4003 /* Avatar.swift in Sources */,
+				4C1351B81D153FEF00968AD0 /* RegisterViewController.swift in Sources */,
+				4CB6D00B1D4C1C3100E15E81 /* FriendsTableViewCell.swift in Sources */,
+				4C0ECC7B1D27FBA400EA4003 /* RecentTableViewCell.swift in Sources */,
+				4C8F2AA61D18069200B1A3A7 /* ProgressHUD.m in Sources */,
+				4CB6D0091D4C129D00E15E81 /* FriendsViewController.swift in Sources */,
 				4CF6D3481D14EF860048F0FD /* AppDelegate.swift in Sources */,
+				4C0ECC7D1D28062200EA4003 /* IncomingMessage.swift in Sources */,
+				4C0ECC7F1D29105E00EA4003 /* Camera.swift in Sources */,
+				4C0ECC831D2E700700EA4003 /* SettingsTableViewController.swift in Sources */,
+				4C40C0F91D1FB2C1002F8AA4 /* ChatViewController.swift in Sources */,
+				4C1351B61D153ED600968AD0 /* WelcomeViewController.swift in Sources */,
+				4C0ECC811D293DE900EA4003 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,57 +681,67 @@
 		};
 		4CF6D36D1D14EF860048F0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9632A8C591963CE5C91CC3 /* Pods-TomaTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TomaTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skywalk.TomaTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4CF6D36E1D14EF860048F0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F562573AD1A2CB231FB437 /* Pods-TomaTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TomaTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skywalk.TomaTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		4CF6D3701D14EF860048F0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65E40CCD78286A81EE64D9A /* Pods-TomaTalkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TomaTalkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skywalk.TomaTalkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomaTalk.app/TomaTalk";
 			};
 			name = Debug;
 		};
 		4CF6D3711D14EF860048F0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5308DFA9A9466B56FF4AE4DF /* Pods-TomaTalkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TomaTalkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skywalk.TomaTalkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomaTalk.app/TomaTalk";
 			};
 			name = Release;
 		};
 		4CF6D3731D14EF860048F0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9265F39EFEDEBDE938948A50 /* Pods-TomaTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TomaTalkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skywalk.TomaTalkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TomaTalk;
 				USES_XCTRUNNER = YES;
 			};
@@ -455,11 +749,13 @@
 		};
 		4CF6D3741D14EF860048F0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9422DEE3DA71FCE8FE28E8A8 /* Pods-TomaTalkUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TomaTalkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skywalk.TomaTalkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TomaTalk;
 				USES_XCTRUNNER = YES;
 			};
@@ -484,6 +780,7 @@
 				4CF6D36E1D14EF860048F0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CF6D36F1D14EF860048F0FD /* Build configuration list for PBXNativeTarget "TomaTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +789,7 @@
 				4CF6D3711D14EF860048F0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CF6D3721D14EF860048F0FD /* Build configuration list for PBXNativeTarget "TomaTalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +798,7 @@
 				4CF6D3741D14EF860048F0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

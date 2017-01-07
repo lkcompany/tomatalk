@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>334442259553-rg8qf51f81e3l4auprglsee4qn6c5241.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.334442259553-rg8qf51f81e3l4auprglsee4qn6c5241</string>
+	<key>GCM_SENDER_ID</key>
+	<string>334442259553</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.skywalk.Tomatalk</string>
+	<key>PROJECT_ID</key>
+	<string>project-3586427971502053352</string>
+	<key>STORAGE_BUCKET</key>
+	<string>project-3586427971502053352.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:334442259553:ios:036bd27724b3494b</string>
+	<key>DATABASE_URL</key>
+	<string>https://project-3586427971502053352.firebaseio.com</string>
+</dict>
+</plist>
