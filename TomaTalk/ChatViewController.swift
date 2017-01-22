@@ -249,6 +249,8 @@ class ChatViewController: JSQMessagesViewController, UINavigationControllerDeleg
         
         ///outgoingMessage!.sendMessage(chatRoomId, item: outgoingMessage!.messageDictionary)
         outgoingMessage.sendMessage(chatRoomId)
+        
+        self.inputToolbar?.contentView?.textView?.text=""
     }
     
     // MARK: Load Message
