@@ -20,24 +20,21 @@ let firebase = FIRDatabase.database().reference()
 
 // MARK: Create ChatRoom
 func startChat(_ user1: BackendlessUser, user2: BackendlessUser) -> String {
-    
+
     // user 1 is current usser
     let userId1: String = user1.objectId as String
     let userId2: String = user2.objectId as String
     
     var chatRoomId: String = ""
-    let value = userId1.compare(userId2).rawValue
-    if value < 0 {
-        chatRoomId = userId1 + userId2
-    } else {
-        chatRoomId = userId2 + userId2
-    }
+
+    //자동 생성 키로 변경
+    chatRoomId = firebase.child("Recent").childByAutoId().key
     
     let members = [userId1, userId2]
     // create recent
     CreateRecent(userId1, chatRoomID: chatRoomId, members: members, withUserUserName: user2.name! as String, withUserUserId: userId2)
     CreateRecent(userId2, chatRoomID: chatRoomId, members: members, withUserUserName: user1.name! as String, withUserUserId: userId1)
-    
+
     return chatRoomId
 }
 
