@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		038F12B728F445828931BB72 /* Pods_TomaTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBC1BB841E97B89A0C66A69 /* Pods_TomaTalkUITests.framework */; };
+		1C9721771E3494AE00784059 /* FriendsRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9721761E3494AE00784059 /* FriendsRegisterViewController.swift */; };
 		4C0964701D325BBE00331854 /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C09646F1D325BBE00331854 /* RegisterUser.swift */; };
 		4C0ECC7B1D27FBA400EA4003 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0ECC7A1D27FBA400EA4003 /* RecentTableViewCell.swift */; };
 		4C0ECC7D1D28062200EA4003 /* IncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0ECC7C1D28062200EA4003 /* IncomingMessage.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C9721761E3494AE00784059 /* FriendsRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsRegisterViewController.swift; sourceTree = "<group>"; };
 		1FBC1BB841E97B89A0C66A69 /* Pods_TomaTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TomaTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F562573AD1A2CB231FB437 /* Pods-TomaTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomaTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TomaTalk/Pods-TomaTalk.release.xcconfig"; sourceTree = "<group>"; };
 		4C09646F1D325BBE00331854 /* RegisterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUser.swift; sourceTree = "<group>"; };
@@ -141,8 +143,8 @@
 		4C8F2AAB1D197FE200B1A3A7 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				4C1351B51D153ED600968AD0 /* WelcomeViewController.swift */,
 				4C1351B71D153FEF00968AD0 /* RegisterViewController.swift */,
+				4C1351B51D153ED600968AD0 /* WelcomeViewController.swift */,
 				4C1351B91D153FFC00968AD0 /* LoginViewController.swift */,
 			);
 			name = Login;
@@ -162,6 +164,7 @@
 			children = (
 				4C8F2AA91D197FCA00B1A3A7 /* RecentViewController.swift */,
 				4CB6D0081D4C129D00E15E81 /* FriendsViewController.swift */,
+				1C9721761E3494AE00784059 /* FriendsRegisterViewController.swift */,
 				4C40C0F61D1FA5FB002F8AA4 /* ChooseUserViewController.swift */,
 				4C40C0F81D1FB2C1002F8AA4 /* ChatViewController.swift */,
 				4C0ECC801D293DE900EA4003 /* MapViewController.swift */,
@@ -532,6 +535,7 @@
 				4C0ECC851D306BCA00EA4003 /* Avatar.swift in Sources */,
 				4C1351B81D153FEF00968AD0 /* RegisterViewController.swift in Sources */,
 				4CB6D00B1D4C1C3100E15E81 /* FriendsTableViewCell.swift in Sources */,
+				1C9721771E3494AE00784059 /* FriendsRegisterViewController.swift in Sources */,
 				4C0ECC7B1D27FBA400EA4003 /* RecentTableViewCell.swift in Sources */,
 				4C8F2AA61D18069200B1A3A7 /* ProgressHUD.m in Sources */,
 				4CB6D0091D4C129D00E15E81 /* FriendsViewController.swift in Sources */,
