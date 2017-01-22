@@ -24,6 +24,9 @@ func uploadAvatar(_ image: UIImage, result: @escaping (_ imageLink: String?) -> 
 }
 
 func getImageFromURL(_ url: String, result: @escaping (_ image: UIImage?) -> Void) {
+    if(url.isEmpty){
+        return
+    }
     
     let URL = Foundation.URL(string: url)
     
